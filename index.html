@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sadha | Portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://kit.fontawesome.com/698f86d969.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+
+    <div class="header" id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark menu" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars menu" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Photographer</p>
+                <h1>Hi, I'm <span>SADHA</span> <br> From Kanchipuram</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-------------- About Section --------------->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About <span>Me</span></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
+                        similique sapiente. Nisi blanditiis architecto esse magni 
+                        nesciunt sint saepe, dolor odio eligendi deserunt vitae harum 
+                        minima repellat laborum ipsa molestias.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
+                        similique sapiente.</p>
+                        
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('course')">Course</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Traditional & Candid</span><br>Photography.</li>
+                                <li><span>Traditional & Candid</span><br>Videography.</li>
+                                <li><span>Photoshop</span><br>Adobe.</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="course">
+                            <ul>
+                                <li><span>Photography (All) </span><br>Certified</li>
+                                <li><span>Photoshop (Adobe)</span><br>Certified</li>
+                                <li><span>videography (All)</span><br>Certified</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Marriages </span><br>4 Completed. 3 Booked</li>
+                                <li><span>Birthday</span><br>5 Completed.</li>
+                                <li><span>Engagements</span><br>2 Completed.</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="javascript/script.js"></script>
+
+    <!-- Services Section -->
+
+    <div class="services" id="services">
+        <div class="container">
+            <h1 class="sub-title">My <span>Services</span></h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-camera"></i>
+                    <h2>Photography</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Nobis exercitationem quaerat delectus sint culpa!</p>
+                        <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-video"></i>
+                    <h2>Videography</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Nobis exercitationem quaerat delectus sint culpa!</p>
+                        <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-heart-circle-bolt"></i>
+                    <h2>Pre-Wedding Shoot</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Nobis exercitationem quaerat delectus sint culpa!</p>
+                        <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- My Projects -->
+
+    <div class="projects" id="projects">
+        <div class="container">
+            <h1 class="sub-title">My <span>Projects</span></h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-3.png" alt=""> 
+                    <div class="layer">
+                        <h3>Wedding shoot</h3>
+                        <p>A happy marriage is a long conversation which always seems too short.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Engagement Shoot</h3>
+                        <p>It is such a happiness when good people get together - 
+                            an they always do.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt=""> 
+                    <div class="layer">
+                        <h3>Birthday Shoot</h3>
+                        <p>It is such a happiness when good people get together - an they always do.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> ssphotography444@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 90251 01822</p>
+
+                    <div class="social-icons">
+                        <a href="https://wa.me/9025101822" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/ssphotography_4444/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="images/Vignesh_D_Resume.pdf" download class="btn btn-2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="8" placeholder="Your Message" ></textarea>
+                        <button type="submit" class="btn btn-2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <!-- Footer Design -->
+    <div class="footer">
+        <div class="container">
+            <div class="copyright">
+                <p>&copy; Copyright 2023 | Sadha SS</a></p>
+                <p>Developed By 
+                    <a href="https://vignesh-d04.github.io/vicky-portfolio/">v!Cky
+                        <i class="fa-solid fa-heart"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx8f8oieFSPe6dxUA-eQhlmUTSeio71xtR5eSJNL20nlipEXmbgLEMrAC74GmAoqKbgng/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully!"
+                setTimeout(function() {
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+</html>
